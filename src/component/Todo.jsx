@@ -3,12 +3,12 @@ import img from '../imgs/todo.jpg'
 
 export default function Todo() {
   return (
-    <section id="worksSection">
-      <h1>Works</h1>
+    <section id="projectsSection">
       <div className="workContainer">
         <img className="screenshot" src={img} alt="screen capture" />
         <div className="description">
           <h2>To-Do App</h2>
+          <h3>Tech Used ..</h3>
           <div className="stackContainer">
             <div className="stackBox">
               <span
@@ -47,7 +47,7 @@ export default function Todo() {
           <p>This was my first react full stack Application</p>
           <p>User can save to-do lists and mark them complete</p>
           <p>to easily track unfinished tasks.</p>
-          <h3>Coming</h3>
+          <h3>Coming Next ..</h3>
           <p>Plan to implement user login so mutiple users can</p>
           <p>access their own to-do data.</p>
           <div className="workLinks">
@@ -57,7 +57,7 @@ export default function Todo() {
               rel="noreferrer"
             >
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="radix-icons:github-logo"
                 data-width="50"
               ></span>
@@ -68,7 +68,7 @@ export default function Todo() {
               rel="noreferrer"
             >
               <span
-                class="iconify"
+                className="iconify"
                 data-icon="fluent-mdl2:website"
                 data-width="50"
               ></span>

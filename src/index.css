@@ -33,12 +33,11 @@ section {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 100vh;
+  height: 100vh;  
 }
 
 section h1 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
+  font-size: 2rem;  
 }
 
 section button {
@@ -53,15 +52,19 @@ section button {
   
 }
 
-section button:hover {
-    
-  opacity: 50%;  
-  
+section button:hover {    
+  opacity: 50%;    
 }
 
 section .workContainer {
   display: flex;
+  margin-top: 5%;
 }
+
+section .workContainer img{
+  width: 30vw;
+}
+
 
 section .description {
   margin-left: 2rem;  

@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './styles/header.module.css'
 
 export default function TopNav() {
-  const navLinks = ['HOME', 'WORKS', 'ABOUT ME']
+  const navLinks = ['HOME', 'PROJECTS', 'ABOUT ME']
   const externalLinks = [
     {
       site: 'linkedIn',
