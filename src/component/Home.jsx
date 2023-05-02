@@ -8,31 +8,82 @@ export default function Home() {
     link.download = fileName
     link.href = fileUrl
     link.click()
-    // fetch('../files/JOON-YOUNG-JEONG.pdf')
-    //   .then((res) => {
-    //     res
-    //       .blob()
-    //       .then((blob) => {
-    //         const fileURL = window.URL.createObjectURL(blob)
-    //         const alink = document.createElement('a')
-    //         alink.href = fileURL
-    //         alink.download = 'Joon-CV.pdf'
-    //         alink.click()
-    //       })
-    //       .catch((error) => {
-    //         console.log(error)
-    //       })
-    //   })
-    //   .catch((error) => {
-    //     console.log(error)
-    //   })
   }
   return (
     <section id="homeSection">
       <h1>Joon Young Jeong</h1>
       <h2>Full Stack Software Developer</h2>
-      <p>Hi I am Joon!</p>
       <button onClick={handleDownLoad}>DOWNLOAD CV</button>
+      <div className="stackContainer">
+        <div className="stackBox">
+          <span
+            className="iconify"
+            data-icon="devicon:react"
+            data-width="50"
+          ></span>
+          <h2>REACT</h2>
+        </div>
+        <div className="stackBox">
+          <span
+            className="iconify"
+            data-icon="file-icons:redux"
+            data-width="50"
+          ></span>
+          <h2>REDUX</h2>
+        </div>
+        <div className="stackBox">
+          <span className="iconify" data-icon="la:node" data-width="50"></span>
+          <h2>NODE.JS</h2>
+        </div>
+        <div className="stackBox">
+          <span
+            className="iconify"
+            data-icon="teenyicons:javascript-outline"
+            data-width="50"
+          ></span>
+          <h2>JavaScripts</h2>
+        </div>
+        <div className="stackBox">
+          <span
+            className="iconify"
+            data-icon="file-icons:typescript"
+            data-width="50"
+          ></span>
+          <h2>TypeScripts</h2>
+        </div>
+        <div className="stackBox">
+          <span
+            className="iconify"
+            data-icon="typcn:html5"
+            data-width="50"
+          ></span>
+          <h2>HTML5</h2>
+        </div>
+        <div className="stackBox">
+          <span
+            className="iconify"
+            data-icon="devicon:knexjs"
+            data-width="50"
+          ></span>
+          <h2>Knex</h2>
+        </div>
+        <div className="stackBox">
+          <span
+            className="iconify"
+            data-icon="devicon-plain:sqlite-wordmark"
+            data-width="50"
+          ></span>
+          <h2>Sqlite3</h2>
+        </div>
+        <div className="stackBox">
+          <span
+            className="iconify"
+            data-icon="material-symbols:database"
+            data-width="50"
+          ></span>
+          <h2>SQL Database</h2>
+        </div>
+      </div>
     </section>
   )
 }

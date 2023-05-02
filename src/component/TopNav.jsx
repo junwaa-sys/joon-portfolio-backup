@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './styles/header.module.css'
 
 export default function TopNav() {
-  const navLinks = ['HOME', 'WORKS', 'BLOGS', 'ABOUT ME']
+  const navLinks = ['HOME', 'WORKS', 'ABOUT ME']
   const externalLinks = [
     {
       site: 'linkedIn',
@@ -57,7 +57,7 @@ export default function TopNav() {
     <header className={styles.header}>
       <div className={styles.container}>
         <div className={styles.navContainer}>
-          <div></div>
+          <div>JOON JEONG</div>
           <nav>{navLinks.map((nav) => renderNavLink(nav))}</nav>
           <nav>{externalLinks.map((link) => renderExternalLinks(link))}</nav>
         </div>
