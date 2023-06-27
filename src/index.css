@@ -58,6 +58,8 @@ section button:hover {
 
 section .workContainer {
   display: flex;
+  width: 50vw;
+  height: 50vh;
   margin-top: 5%;
 }
 
